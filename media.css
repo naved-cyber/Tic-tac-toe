@@ -1,9 +1,9 @@
 /* phone  */
-@media only screen and  (max-width:426px){
+@media only screen and (min-width: 322px) and (max-width:426px){
     .head{
         flex-wrap: wrap;
         display: flex;
-        font-size: 30px;
+        font-size: 80%;
         align-items: center;
         justify-content: center;
     }
@@ -24,7 +24,7 @@
     }
    .box{
      height: 15vh;
-     width: 15vh;
+     width: 25%;
      display: flex;
      text-align: center;
      justify-content: center;
@@ -41,20 +41,21 @@
 }
 
 
-@media only screen and (min-width: 300px) and  (max-width:321px){
+@media only screen and (min-width: 250px) and  (max-width:321px){
     .head{
         flex-wrap: wrap;
         display: flex;
-        font-size: 20px;
+        font-size: 80%;
         align-items: center;
         justify-content: center;
         overflow:hidden;
     }
     .container{
-        height: 55vh;
+        height: vh;
         width: 100%;
         display: grid;
-        
+        max-width: fit-content;
+        flex-shrink: 1;
     }
     .game{
         height: 80vmin;
@@ -67,19 +68,23 @@
 
     }
    .box{
-     height: 13vh;
-     width: 13vh;
+     height: 12vh;
+     width: 12vh;
      display: flex;
      text-align: center;
      justify-content: center;
      align-items: center;
      font-size: 5.5rem;
-
+     gap: 10%;
+     grid-template-columns: auto;
    }
    
 
    .footer{
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
    }
 }
