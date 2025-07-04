@@ -60,7 +60,7 @@ body {
 
 .reset{
     padding: 1rem;
-    margin-top: px;
+    
     background-color: rgb(23, 23, 23);
     color: #437057;
     border: none;
@@ -77,7 +77,7 @@ body {
 }
 .newbtn{
     padding: 1rem;
-    margin-top: 0px;
+    
     background-color: rgb(23, 23, 23);
     color: #437057;
     border: none;
