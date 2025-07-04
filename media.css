@@ -39,3 +39,47 @@
     
    }
 }
+
+
+@media only screen and (min-width: 300px) and  (max-width:321px){
+    .head{
+        flex-wrap: wrap;
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        overflow:hidden;
+    }
+    .container{
+        height: 55vh;
+        width: 100%;
+        display: grid;
+        
+    }
+    .game{
+        height: 80vmin;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+   .box{
+     height: 13vh;
+     width: 13vh;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     font-size: 5.5rem;
+
+   }
+   
+
+   .footer{
+    margin-top: 30px;
+    
+   }
+}
